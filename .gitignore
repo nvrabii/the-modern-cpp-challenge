@@ -1,1 +1,5 @@
+# build
 /build/*
+
+# OS files
+.DS_STORE

@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.18)
+
+project(matrix LANGUAGES CXX)
+add_library(matrix STATIC ../src/language_features/matrix/Matrix.cc
+                          ../src/language_features/matrix/Matrix.hpp)
+target_include_directories(matrix PUBLIC ../src/language_features/matrix)
+target_compile_features(matrix PUBLIC cxx_std_17)
+
+add_executable(matrix_test ../src/language_features/matrix/matrix_test.cc)
+target_link_libraries(matrix_test PUBLIC matrix)

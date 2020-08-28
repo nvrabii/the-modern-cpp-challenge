@@ -2,18 +2,27 @@
 
 ## How to build
 
-Using VS Code, press `Cmd + Shift + B` or use the terminal to build the active file.
+Chapter names are written in snake case, lower case: Language features -> `language_features`. Look up task/program names in the [Contents](#contents) section.
+
+```
+../the-modern-cpp-challenge $ cd build
+../build $ cmake ../src/<chapter_name>/<task_folder_name>
+../build $ make
+```
 
 ## How to run
 
-Using the integrated terminal, run the command: `build/<file_name>`
+```
+../build $ ./<task_name_with_no_extension>
+```
 
 ## Project structure
 
 - `.vscode` - instruction for build and debug
-- `build` - output folder
-- `src` - source folder
-  - `math_problems` - Chapter 1 solutions
+- `build/` - build folder
+- `src/` - source folder
+  - `math_problems/` - Chapter 1 solutions
+  - `language_features/` - Chapter 2 solutions
   - ...
 - ...
 
@@ -35,3 +44,9 @@ Using the integrated terminal, run the command: `build/<file_name>`
 12. Largest Collatz sequence (`largest_collatz_sequence.cc`)
 13. Computing the value of Pi (`value_of_pi.cc`)
 14. Validating ISBNs (`isbn_validation.cc`)
+
+### Chapter 2: Language Features
+
+15. IPv4 data type (`ipv4_data_type/ipv4_test.cc`)
+16. Enumerating IPv4 addresses in a range (`ipv4_range/ipv4_range_test.cc`)
+17. Creating a 2D array with basic operations (`matrix/matrix_test.cc`)
