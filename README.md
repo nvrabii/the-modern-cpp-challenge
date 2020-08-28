@@ -50,3 +50,6 @@ Chapter names are written in snake case, lower case: Language features -> `langu
 15. IPv4 data type (`ipv4_data_type/ipv4_test.cc`)
 16. Enumerating IPv4 addresses in a range (`ipv4_range/ipv4_range_test.cc`)
 17. Creating a 2D array with basic operations (`matrix/matrix_test.cc`)
+18. Minimum function with any number of arguments (`min_function/min_test.cc`)
+19. Adding a range of values to a container (`container_add/container_add/test.cc`)
+20. Container any, all, none (`container_query/container_query_test.cc`)
