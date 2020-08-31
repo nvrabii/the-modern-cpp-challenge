@@ -53,3 +53,5 @@ Chapter names are written in snake case, lower case: Language features -> `langu
 18. Minimum function with any number of arguments (`min_function/min_test.cc`)
 19. Adding a range of values to a container (`container_add/container_add/test.cc`)
 20. Container any, all, none (`container_query/container_query_test.cc`)
+21. System handle wrapper (`sys_handle_wrapper/shv_test.cc`) (Remark: `/shv_test` will run properly with a cmd argument - relative path to the file `input.txt`)
+22. Literals of various temperature scales (`temp_literals/temp_literals_test.cc`)
