@@ -18,13 +18,16 @@ Chapter names are written in snake case, lower case: Language features -> `langu
 
 ## Project structure
 
-- `.vscode` - instruction for build and debug
+- `bin/` - _to do_
 - `build/` - build folder
 - `src/` - source folder
-  - `math_problems/` - Chapter 1 solutions
-  - `language_features/` - Chapter 2 solutions
+  - `math_problems/` - Chapter 1
+  - `language_features/` - Chapter 2
+  - `strings_and_regexp/` - Chapter 3
+  - `streams_and_filesystems/` - Chapter 4
   - ...
-- ...
+- `.gitignore`
+- `README.md`
 
 ## Contents
 
@@ -67,3 +70,13 @@ Chapter names are written in snake case, lower case: Language features -> `langu
 29. License plate validation (`license_plates/licence_plates.cc`)
 30. Extracting URL parts (`url_parser/url_parser.cc`)
 31. Transforming dates in strings (`date_to_string/date_to_string.cc`)
+
+### Chapter 4: Streams and Filesystems
+
+32. Pascal's triangle (`pascals_triangle/main.cc`)
+33. Tabular printing of a list of processes (`processes_table/main.cc`)
+34. Removing empty lines from a text file (`removing_empty_lines/main.cc`)
+35. Computing the size of a directory (`directory_size/main.cc`)
+36. Deleting files older than a given date
+37. Finding files in a directory that match a regular expression
+38. Temporary log files

@@ -1,0 +1,9 @@
+test file
+
+should
+
+remove empty
+
+
+
+lines
